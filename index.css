@@ -1,0 +1,39 @@
+html, body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #2d2d2d;
+font-family: 'Courier New', Courier, monospace;
+font-size: 1.5rem;
+}
+
+body {
+  margin-top: 250px; 
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.button {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #2d2d2d;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 1s;
+  user-select: none;
+}
+
+.button:hover {
+  color: grey;
+}
+
+.hidden {
+  display: none;
+}
+
